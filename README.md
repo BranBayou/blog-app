@@ -1,4 +1,4 @@
-# Catalog of my things
+# Blog app
 
 <a name="readme-top"></a>
 
@@ -25,14 +25,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# [Catalog of my things] <a name="about-project"></a>
+# [Blog app
+] <a name="about-project"></a>
 
-**[Catalog of my things]** "Catalog of my things" is a simple console app that allows users to manage collections of the things they own. It has been developed based on the following UML class diagram.
-
-[Video presentation](https://drive.google.com/file/d/1l9gVw0djCoo-PJS55vtxsyNlixtV4C3y/view?usp=sharing)
+**[Blog app]** "Catalog of my things" is a simple console app that allows users to manage collections of the things they own. It has been developed based on the following UML class diagram.
 
 
-![Class diagram image](https://github.com/BranBayou/catalog-of-my-things/blob/set-up-kanban-board/Assets/catalog_of_my_things.png)
+![ER diagram image](https://github.com/BranBayou/catalog-of-my-things/blob/set-up-kanban-board/Assets/catalog_of_my_things.png)
 
 ## Built With <a name="built-with"></a>
 
@@ -49,15 +48,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[List all books]**
-- **[List of games]**
-- **[List all music albums]**
-- **[List all labels (e.g. 'Gift', 'New')]**
-- **[List all authors (e.g. 'Stephen King')]**
-- **[List all sources (e.g. 'From a friend', 'Online shop')]**
-- **[Add a book]**
-- **[Add a music album]**
-- **[Add a game]**
+- **[Add user]**
+- **[Create post]**
+- **[Add comment]**
+- **[Like post]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,15 +72,15 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- cd `catalog-of-my-things`
-- `git clone ggit@github.com:BranBayou/catalog-of-my-things.git`
+- cd `blog-app`
+- `git clone ggit@github.com:BranBayou/blog-app.git`
 
 
 ### Install
 
 Install this project with:
 
-- cd catalog-of-my-things
+- cd blog-app
 - bundle install
 
 ### Usage
@@ -100,6 +95,7 @@ To run tests, run the following command:
 
 - `rubocop`
 - `rspec .`
+- `rails server`
 
 
 ### Deployment
@@ -136,7 +132,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](hhttps://github.com/BranBayou/catalog-of-my-things/issues).
+Feel free to check the [issues page](hhttps://github.com/BranBayou/blog-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
