@@ -25,13 +25,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# [Blog app
-] <a name="about-project"></a>
+# [Blog app] <a name="about-project"></a>
 
-**[Blog app]** "Catalog of my things" is a simple console app that allows users to manage collections of the things they own. It has been developed based on the following UML class diagram.
+**[Blog app]** The Blog app will be a classic example of a blog website. It is a functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. It has been made by the following ER diagram.
 
 
-![ER diagram image](https://github.com/BranBayou/catalog-of-my-things/blob/set-up-kanban-board/Assets/catalog_of_my_things.png)
+![ER diagram image](https://github.com/BranBayou/blog-app/blob/crud/app/assets/images/blog_app_erd_v1_1.png)
 
 ## Built With <a name="built-with"></a>
 
