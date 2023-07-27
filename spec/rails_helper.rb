@@ -1,7 +1,6 @@
 require 'spec_helper'
 require 'shoulda/matchers'
 require 'factory_bot_rails'
-
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 

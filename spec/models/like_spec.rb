@@ -7,9 +7,18 @@ RSpec.describe Like, type: :model do
   end
 
   describe 'callbacks' do
+    let(:post) { create(:post) }
+    let(:user) { create(:user) }
+
     context 'after_save' do
-      let(:user) { FactoryBot.create(:user) }
-      let(:post) { FactoryBot.create(:post) }
+      it 'updates the likes_counter after saving a like' do
+        expect(post.likes_counter).to eq(0)
+
+        new_like = build(:like, post: post, user: user)
+        new_like.save
+
+        expect(post.reload.likes_counter).to eq(1)
+      end
     end
   end
 end
