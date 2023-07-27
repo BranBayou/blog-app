@@ -86,7 +86,7 @@ Install this project with:
 
 To run the project execute the following command:
 
-- [N/A]
+- `rails server`
 
 ### Run tests
 
@@ -94,14 +94,6 @@ To run tests, run the following command:
 
 - `rubocop`
 - `rspec .`
-- `rails server`
-
-
-### Deployment
-
-You can deploy this project using:
-
-- [N/A]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
